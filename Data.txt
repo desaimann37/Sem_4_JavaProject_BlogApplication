@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Mann Desai",
+        "email": "desaimann37@gmail.com",
+        "password": "12345",
+        "about": "Java Developer"
+    },
+    {
+        "id": 2,
+        "name": "Ashish Prajapati",
+        "email": "ashish2901@gmail.com",
+        "password": "1234567",
+        "about": "Machine Learning"
+    },
+    {
+        "id": 3,
+        "name": "Dhruv Prajapati",
+        "email": "dpmaths@gmail.com",
+        "password": "abcd",
+        "about": "Mathematical Tactics"
+    },
+    {
+        "id": 4,
+        "name": "Harsh Bhimani",
+        "email": "bhimaniharsh@gmail.com",
+        "password": "abcdef",
+        "about": "React Developer"
+    }
+]
+
+[
+    {
+        "categoryId": 1,
+        "categoryTitle": "OnePlus Nord 2T",
+        "categoryDescription": "2022 Premium FlagShip Phone is Here!!!"
+    },
+    {
+        "categoryId": 3,
+        "categoryTitle": "Apple 14 Max",
+        "categoryDescription": "2023 Premium Phone is Here!!! With Two Cameras"
+    }
+]

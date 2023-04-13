@@ -1,0 +1,8 @@
+package com.blogApplication.blogs.utils;
+
+public class passwordGenerator {
+
+	public static void main(String[] args) {
+		
+	}
+}

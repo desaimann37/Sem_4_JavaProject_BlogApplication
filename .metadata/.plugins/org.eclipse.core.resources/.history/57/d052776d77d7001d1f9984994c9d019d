@@ -1,0 +1,11 @@
+package com.blogApplication.blogs.security;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public class CustomUserDetailService implements UserDetailsService{
+
+	
+	
+	
+	
+}

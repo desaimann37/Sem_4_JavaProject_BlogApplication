@@ -1,0 +1,29 @@
+package com.blogApplication.blogs.security;
+
+import java.sql.Date;
+
+import org.springframework.stereotype.Component;
+
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
+import org.springframework.security.core.userdetails.UserDetails;
+
+@Component
+public class JwtTokenHelper {
+
+	public static final long JWT_TOKEN_VALIDITY = 5 * 60 * 60;//Validity of JWT Token in milliseconds
+	
+	private String secret = "jwtTokenKey";
+	
+	public String getUsernameFromToken(String token) {
+		return getClaimFromToken(token , Claims::getSubject);
+	}
+	
+	public Date getExpirationDateToken(String token) {
+		return getClaimFromToken(token , Claims::getExpiration);
+	}
+	
+	
+	
+	
+}

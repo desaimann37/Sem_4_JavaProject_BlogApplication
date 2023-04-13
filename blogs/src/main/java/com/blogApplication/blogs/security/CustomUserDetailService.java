@@ -1,0 +1,32 @@
+//package com.blogApplication.blogs.security;
+//
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.security.core.userdetails.UserDetails;
+//import org.springframework.security.core.userdetails.UserDetailsService;
+//import org.springframework.security.core.userdetails.UsernameNotFoundException;
+//import org.springframework.stereotype.Service;
+//
+//import com.blogApplication.blogs.entities.User;
+//import com.blogApplication.blogs.exceptions.ResourceNotFoundException;
+//import com.blogApplication.blogs.repositories.UserRepo;
+//
+//@Service
+//public class CustomUserDetailService implements UserDetailsService{		//--->Locates User Based on UserName in Spring Security...
+//
+//	@Autowired
+//	private UserRepo userRepo;
+//	
+//	//Loading User from Database by UserName
+//	@Override
+//	public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
+//		
+//		User user = this.userRepo.findByEmail(userName).orElseThrow(()->new ResourceNotFoundException("User ", " Email : " + userName , 0));
+//		
+//		return user;
+//	}
+//
+//	
+//	
+//	
+//	
+//}

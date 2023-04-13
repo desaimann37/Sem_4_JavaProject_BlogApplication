@@ -1,0 +1,5 @@
+package com.blogApplication.blogs.repositories;
+
+public interface RoleRepo {
+
+}

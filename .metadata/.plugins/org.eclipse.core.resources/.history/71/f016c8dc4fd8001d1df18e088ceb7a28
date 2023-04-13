@@ -1,0 +1,5 @@
+package com.blogApplication.blogs.security;
+
+public class JwtAuthResponse {
+
+}
